@@ -1,3 +1,4 @@
+
 # ==============================
 # Virtual Environment
 # ==============================
@@ -34,7 +35,9 @@ __pycache__/
 # MLflow
 # ==============================
 mlruns/
+mlartifacts/
 mlflow.db
+mlflow.db-*
 
 # ==============================
 # Processed Data
@@ -42,10 +45,13 @@ mlflow.db
 data/processed/
 
 # ==============================
-# Trained Models
+# Trained Models & Preprocessing Artifacts
 # ==============================
 models/trained/
 models/preprocessed/
+*.joblib
+*.pkl
+*.pickle
 
 # ==============================
 # Generated Reports / Figures
